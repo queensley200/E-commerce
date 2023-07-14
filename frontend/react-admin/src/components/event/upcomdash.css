@@ -1,0 +1,5 @@
+.upcDash{
+    display: flex;
+     grid-template-columns: 13rem auto 5rem;
+
+}

@@ -1,0 +1,49 @@
+.registration-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ff9d6c, #e78fb3); /* Update gradient colors as needed */
+}
+.registration {
+  background-color: #f2f2f2; /* Change to your desired background color */
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+  padding: 20px;
+  width: 400px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.registration h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #4caf50; /* Change to your desired button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Change to your desired button hover color */
+}
